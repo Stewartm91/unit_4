@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial|Cormorant+SC);
+
+
+
+li, p {
+	font-family: 'Cormorant Upright', serif;
+
+		font-weight: normal;
+		font-size: 18px;
+		line-height:1.5em;
+}
+
+li {
+	font-size: 16px;
+	margin: 15px;
+}
+
+
+#hero{
+	background: url('../images/image.jpg') no-repeat fixed;  
+    background-size: cover;
+    padding-bottom: 325px;
+}
+
+.box  {
+	background-color: rgba(230, 80, 0, .8);
+	border: 2px solid black;
+	border-radius:10px;
+	color:white;
+	font-family: 'Questrial', sans-serif;, sans-serif;
+	padding:1em;
+	height:20px;
+	width:150px;
+}
+
+
+.copy {
+	background-color: rgba(255,255,255,.9);
+	border-radius: 10px;
+	color: black;
+	margin:20px, 40px, 0px, 20px;
+	padding:20px;
+}
+.copy h2{
+	font-size:20px;
+	font-weight:bolder;
+	padding-bottom: 10px;
+}
+
+.copy p{
+	margin-bottom:10px;
+	border-bottom: 2px solid darkorange;
+}
+
+.index {
+	margin-left:1em;
+	padding:none;
+	list-style-type:square;
+	line-height:1em;
+}
+
+.index h3{
+	 	font-family: 'Questrial', sans-serif;
+	 	font-size:24px;
+}
+
+.inline li{
+	display:inline;
+}
+
+.nav nav{
+	margin-left: 250px;
+	margin-right:325px;
+	background-color: rgba(230, 80, 0, .8);
+}
+
+.nav li {
+	background-color:rgba(230, 80, 0 .8);
+	display:inline;
+	margin-left: 50px;
+}
+.right{
+	text-align:right;
+}
+
+.slogan  {
+		background:white;
+		background-position: fixed;
+		border-bottom:5px solid darkorange;
+	   	color: black;
+	   	font-family: 'Questrial', sans-serif;
+		font-size:34px;
+}
+
+.slogan h2 {
+	
+	font-size:22px;
+	margin-left:20px;
+
+}
+
+
+.tiles { 
+   	margin-left: 175px;
+	padding:20px;
+    font-weight:bold;
+    font-size:20px;
+ 
+}
+.tiles td{
+	background-size: contain;
+	border-radius: 8px;
+	height:100px;
+    width:160px;
+    margin:1.5em;
+	padding-top: 350px;
+}
+
+
+.perc {
+	background: url('../images/Crotales1.jpg') fixed no-repeat left ;  	
+}
+.string {
+	background: url('../images/cello.jpeg') fixed no-repeat center;
+}
+.keys {
+	background: url('../images/piano.jpg') fixed no-repeat left;
+}
+.backline {
+	background: url('../images/backline1.jpg') fixed no-repeat right;
+}
+.amp {
+	background: url('../images/mic.png') fixed no-repeat right;
+}
+
+
+   
+
+
+
