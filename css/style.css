@@ -1,41 +1,44 @@
-@import url(https://fonts.googleapis.com/css?family=Questrial|Cormorant+SC);
-
-
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Questrial);
 
 li, p {
-	font-family: 'Cormorant Upright', serif;
-
-		font-weight: normal;
-		font-size: 18px;
-		line-height:1.5em;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height:1.5em;
 }
 
-li {
-	font-size: 16px;
-	margin: 15px;
-}
+h1, h2, h3 {
+	font-family: 'Questrial', sans-serif;
 
+}
 
 #hero{
 	background: url('../images/image.jpg') no-repeat fixed;  
     background-size: cover;
-    padding-bottom: 325px;
 }
 
 .box  {
-	background-color: rgba(230, 80, 0, .8);
+	background-color: rgba(240, 90, 10, .8);
 	border: 2px solid black;
 	border-radius:10px;
 	color:white;
-	font-family: 'Questrial', sans-serif;, sans-serif;
-	padding:1em;
+	font-family: 'Libre Baskerville', serif;
 	height:20px;
-	width:150px;
+	padding:.4em;
+	width:185px;
 }
 
+.client{
+	background-color: rgba(250, 250, 250, .9);
+}
+
+.client h3{
+	font-size:28px;
+	font-style:bold;
+}
 
 .copy {
-	background-color: rgba(255,255,255,.9);
+	background-color: rgba(255,255,255,.85);
 	border-radius: 10px;
 	color: black;
 	margin:20px, 40px, 0px, 20px;
@@ -46,39 +49,56 @@ li {
 	font-weight:bolder;
 	padding-bottom: 10px;
 }
-
 .copy p{
 	margin-bottom:10px;
-	border-bottom: 2px solid darkorange;
+	border-bottom: 2px solid #F05A0A;
+}
+.footer{
+	background-color:white;
+	margin-top: 300px;
+	padding-left: 65%;
+}
+.footer h3{
+	font-size:22px;
 }
 
+
 .index {
-	margin-left:1em;
-	padding:none;
-	list-style-type:square;
+	background-color:rgba(255,255, 255, .85);
+	border-bottom-color: rgb(240, 90, 10);;
+	list-style-type: circle;
 	line-height:1em;
+
+}
+
+.index div{
+	padding: 10px 50px 0px 50px;
 }
 
 .index h3{
-	 	font-family: 'Questrial', sans-serif;
-	 	font-size:24px;
-}
-
-.inline li{
-	display:inline;
+	 	font-size:30px;
 }
 
 .nav nav{
-	margin-left: 250px;
-	margin-right:325px;
-	background-color: rgba(230, 80, 0, .8);
+	margin:.5em 50px 0 285px;
 }
 
 .nav li {
-	background-color:rgba(230, 80, 0 .8);
+	background-color: rgba(240, 90, 10, .8);
+	border-radius: 8px;
+	color:white;
+	font-family:'Questrial', sans-serif;
+	font-weight:bold;
+	font-size: 22px;
 	display:inline;
 	margin-left: 50px;
+	padding: .2em;
 }
+
+.orange div{
+	background-color:darkorange;
+}
+
 .right{
 	text-align:right;
 }
@@ -86,9 +106,8 @@ li {
 .slogan  {
 		background:white;
 		background-position: fixed;
-		border-bottom:5px solid darkorange;
+		border-bottom:5px solid #F05A0A;
 	   	color: black;
-	   	font-family: 'Questrial', sans-serif;
 		font-size:34px;
 }
 
@@ -101,7 +120,7 @@ li {
 
 
 .tiles { 
-   	margin-left: 175px;
+   	margin-left: 125px;
 	padding:20px;
     font-weight:bold;
     font-size:20px;
